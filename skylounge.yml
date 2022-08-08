@@ -6,7 +6,7 @@ workflows:
       - job: say-hello
         steps:
           - step: say-hello
-            template-uri: kpewing/skyloungehello/step/hello-step.yml
+            template-uri: kpewing/skyloungehello/step/custom-hello-step.yml
               # Specify the URI to the step to in your fork to say hello. This should be
               # <YOUR-ORG>/hello/step/hello-step.yml where <YOUR-ORG> is the org you forked
               # the hello repo into. Example: spgreenberg/hello/step/custom-hello-step.yml
