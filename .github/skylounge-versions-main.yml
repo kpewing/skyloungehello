@@ -1,0 +1,19 @@
+---
+skylounge-yml: "ea55410ae2eb610af0f22bb42345cb4479fba82a"
+skylounge-yml-html-url: "https://github.com/kpewing/skyloungehello/blob/cdd7b394a9efc7f044a582d7b22938c8f6a6d1b9/skylounge.yml"
+lifecycle-template:
+  id: "blueprint"
+  template-uri: "sky-lounge/public-skylounge-definitions/blueprints/hello-skylounge/blueprint.yml"
+  sha: "4f6ac172eba54dd01166a75eb1691bbcb23669af"
+  html-url: "https://github.com/sky-lounge/public-skylounge-definitions/blob/90131f0df1462b272593ddbf779a46f6d77fefe7/blueprints/hello-skylounge/blueprint.yml"
+workflows:
+- id: "hello"
+  template-uri: "sky-lounge/public-skylounge-definitions/blueprints/hello-skylounge/hello.yml"
+  sha: "8ec850d40b2d92375d7fb0f928c84e5b3cd8fad7"
+  html-url: "https://github.com/sky-lounge/public-skylounge-definitions/blob/90131f0df1462b272593ddbf779a46f6d77fefe7/blueprints/hello-skylounge/hello.yml"
+  jobs: []
+  steps:
+  - id: "say-hello"
+    template-uri: "kpewing/skyloungehello/step/custom-hello-step.yml"
+    sha: "c3e89001972751e21d0a33d99b343d97c2680c11"
+    html-url: "https://github.com/kpewing/skyloungehello/blob/cdd7b394a9efc7f044a582d7b22938c8f6a6d1b9/step/custom-hello-step.yml"
